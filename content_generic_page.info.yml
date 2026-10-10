@@ -1,0 +1,12 @@
+name: 'Content Generic Page'
+machine_name: 'content_generic_page'
+description: 'A generic content (node) type that provides a textarea and title.'
+package: Site structure
+type: module
+core_version_requirement: ^11
+dependencies:
+  - drupal:field
+  - drupal:node
+  - drupal:text
+  - drupal:views
+

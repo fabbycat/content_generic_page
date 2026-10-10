@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.node_generic_page.field_content
+    - node.type.node_generic_page
+  module:
+    - text
+    - user
+id: node.node_generic_page.default
+targetEntityType: node
+bundle: node_generic_page
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: above
+    settings: {}
+    third_party_settings: {}
+    weight: 1
+    region: content
+  links:
+    settings: {}

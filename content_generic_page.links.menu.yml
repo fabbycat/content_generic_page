@@ -1,0 +1,20 @@
+# Add page
+content_generic_page.add_generic_page:
+  title: 'Add a new generic page'
+  description: 'Creates a new generic page.'
+  route_name: node.add
+  route_parameters:
+    node_type: 'node_generic_page'
+  parent: system.admin_content
+  weight: 10
+
+# Manage pages
+content_generic_page.manage_generic_page:
+  title: 'Manage generic pages'
+  description: 'Manage, view and filter all existing generic pages.'
+  route_name: view.content.page_1
+  options:
+    query:
+      type: 'node_generic_page'
+  parent: system.admin_content
+  weight: 11

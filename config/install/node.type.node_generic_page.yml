@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+type: node_generic_page
+name: 'Generic Page'
+module: content_generic_page
+description: 'A generic page content type layout.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
