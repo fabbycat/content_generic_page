@@ -1,12 +1,21 @@
 name: 'Content Generic Page'
 machine_name: 'content_generic_page'
 description: 'A generic content (node) type that provides a textarea and title.'
+# lifecycle:
+# lifecycle_link:
+# project status url:
 package: Site structure
 type: module
 core_version_requirement: ^11
+php: 8.3
 dependencies:
   - drupal:field
   - drupal:node
   - drupal:text
   - drupal:views
-
+  - fields_shared_global:fields_shared_global
+# test_dependencies:
+# configure:
+# configure_parameters:
+# hidden:
+# required:

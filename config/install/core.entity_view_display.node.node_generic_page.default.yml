@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.node_generic_page.field_content
+    - field.field.node.node_generic_page.field_shared_global_contentbody
     - node.type.node_generic_page
   module:
     - text
@@ -12,7 +12,7 @@ targetEntityType: node
 bundle: node_generic_page
 mode: default
 content:
-  field_content:
+  field_shared_global_contentbody:
     type: text_default
     label: above
     settings: {}

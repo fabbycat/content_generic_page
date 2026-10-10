@@ -3,6 +3,7 @@ status: true
 dependencies:
   module:
     - node
+    - fields_shared_global
 type: node_generic_page
 name: 'Generic Page'
 module: content_generic_page
