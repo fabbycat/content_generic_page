@@ -10,8 +10,12 @@ core_version_requirement: ^11
 php: 8.3
 dependencies:
   - drupal:field
+  - drupal:filter
   - drupal:node
+  - drupal:path
+  - drupal:system
   - drupal:text
+  - drupal:user
   - drupal:views
   - fields_node_global:fields_node_global
 # test_dependencies:
