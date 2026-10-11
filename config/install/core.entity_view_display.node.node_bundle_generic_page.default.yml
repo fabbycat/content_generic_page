@@ -2,17 +2,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.node_generic_page.field_shared_global_contentbody
-    - node.type.node_generic_page
+    - field.field.node.node_bundle_generic_page.field_global_textarea
+    - node.type.node_bundle_generic_page
   module:
     - text
     - user
-id: node.node_generic_page.default
+id: node.node_bundle_generic_page.default
 targetEntityType: node
-bundle: node_generic_page
+bundle: node_bundle_generic_page
 mode: default
 content:
-  field_shared_global_contentbody:
+  field_node_global_textarea:
     type: text_default
     label: above
     settings: {}

@@ -2,16 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_shared_global_contentbody
-    - node.type.node_generic_page
+    - field.storage.node.field_global_textarea
+    - node.type.node_bundle_generic_page
   module:
     - field
     - node
     - text
-id: node.node_generic_page.field_shared_global_contentbody
-field_name: field_shared_global_contentbody
+id: node.node_bundle_generic_page.field_global_textarea
+field_name: field_global_textarea
 entity_type: node
-bundle: node_generic_page
+bundle: node_bundle_generic_page
 label: Content
 description: ''
 required: true

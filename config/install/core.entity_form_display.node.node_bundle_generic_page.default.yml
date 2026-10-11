@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.node_generic_page.field_shared_global_contentbody
-    - node.type.node_generic_page
+    - field.field.node.node_bundle_generic_page.field_global_textarea
+    - node.type.node_bundle_generic_page
   module:
     - path
     - text
-id: node.node_generic_page.default
+id: node.node_bundle_generic_page.default
 targetEntityType: node
-bundle: node_generic_page
+bundle: node_bundle_generic_page
 mode: default
 content:
   # USER: Title Field
@@ -23,7 +23,7 @@ content:
     third_party_settings: {}
 
   # USER: Main Content
-  field_shared_global_contentbody:
+  field_global_textarea:
     type: text_textarea
     weight: 5
     region: content

@@ -1,6 +1,6 @@
-name: 'Content Generic Page'
-machine_name: 'content_generic_page'
-description: 'A generic content (node) type that provides a textarea and title.'
+name: 'Node Generic Page'
+machine_name: 'node_generic_page'
+description: 'A generic content type (node) that provides a textarea and title.'
 # lifecycle:
 # lifecycle_link:
 # project status url:
@@ -13,7 +13,7 @@ dependencies:
   - drupal:node
   - drupal:text
   - drupal:views
-  - fields_shared_global:fields_shared_global
+  - fields_node_global:fields_node_global
 # test_dependencies:
 # configure:
 # configure_parameters:

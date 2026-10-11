@@ -1,2 +1,3 @@
-# content_generic_page
-A generic content (node) type that provides a textarea and title.
+# Node generic page
+
+A generic content type (node) that provides a textarea and title.
