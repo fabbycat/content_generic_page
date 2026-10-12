@@ -1,6 +1,6 @@
 name: 'Node Generic Page'
 machine_name: 'node_generic_page'
-description: 'A generic content type (node) that provides a textarea and title.'
+description: 'A generic content, node, type that provides a textarea with a summary and title field.'
 # lifecycle:
 # lifecycle_link:
 # project status url:

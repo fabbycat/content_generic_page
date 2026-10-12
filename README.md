@@ -1,3 +1,3 @@
-# Node generic page
+# Node Generic Page
 
-A generic content type (node) that provides a textarea and title.
+A generic content, node, type for Drupal. It provides a textarea with a summary and title field.

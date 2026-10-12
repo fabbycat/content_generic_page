@@ -7,7 +7,7 @@ dependencies:
 type: node_bundle_generic_page
 name: 'Generic Page'
 module: node_generic_page
-description: 'A generic page with title and content fields.'
+description: 'A generic content, node, type that provides a textarea with a summary and title field.'
 help: ''
 new_revision: true
 preview_mode: 1
